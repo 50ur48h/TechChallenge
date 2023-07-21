@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: windows-latest
+  name: Azure Pipelines
   demands: node.js
 
 steps:
