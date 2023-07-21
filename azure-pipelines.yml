@@ -22,9 +22,11 @@ steps:
     displayName: 'Install Grunt globally'
 
   - task: Grunt@0
-    displayName: 'Build WordPress with Grunt'
+    displayName: Install Wordpress with Grunt
     inputs:
-      gruntFile: 'Gruntfile.js'
+      gruntFile: 'gruntfile.js'
+      targets: 
+      gruntCli: 'node_modules/grunt-cli/bin/grunt'
 
   - task: ArchiveFiles@2
     displayName: 'Archive build files'
