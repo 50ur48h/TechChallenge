@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: ubuntu-latest
+  name: windows-latest
   demands: node.js
 
 steps:
