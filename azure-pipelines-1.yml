@@ -10,6 +10,7 @@ steps:
   - task: NodeTool@0
     inputs:
       versionSpec: '10.x'  # Use the required Node.js version for your WordPress build
+      checkLatest: true
 
   - script: |
       npm install  # Install npm dependencies
