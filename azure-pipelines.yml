@@ -12,19 +12,23 @@ pool:
 
 steps:
   - task: NodeTool@0
-    displayName: 'Install Node.js'
     inputs:
-      versionSpec: '10.13.0'
+      versionSource: 'spec'
+      versionSpec: '6.x'
 
-  - bash: |
-      npm install npm -g
-      npm install grunt-cli -g
-    displayName: 'Install Grunt globally'
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: |
+        npm install npm -g
+        npm install grunt-cli -g
 
   - task: Grunt@0
     displayName: 'Build WordPress with Grunt'
     inputs:
-      gruntFile: 'Gruntfile.js'
+      gruntFile: 'gruntfile.js'
+      targets: 
+      gruntCli: 'node_modules/grunt-cli/bin/grunt'
 
   - task: ArchiveFiles@2
     displayName: 'Archive build files'
