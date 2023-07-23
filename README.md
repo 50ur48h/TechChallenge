@@ -4,7 +4,7 @@ I have tried to complete all 3 challenges, please go through the respective chal
 
 Here is the summary of all three challenges.
 
-- [Challenge 01 - A Three-Tier Architecture for WordPress Web App on Azure](##Challenge-01---A-Three-Tier-Architecture-for-WordPress-Web-App-on-Azure)
+- [Challenge 01 - A Three-Tier Architecture for WordPress Web App on Azure](#challenge-01---a-three-tier-architecture-for-wordpress-web-app-on-azure)
 - [Challenge 02 - Query the metadata of an instance within AWS or Azure or GCP and provide a JSON-formatted output](#challenge-02---query-the-metadata-of-an-instance-within-aws-or-azure-or-gcp-and-provide-a-json-formatted-output)
 - [Challenge 03 - We have a nested object. We would like a function where you pass in the object and a key and get back the value.](#challenge-03---we-have-a-nested-object-we-would-like-a-function-where-you-pass-in-the-object-and-a-key-and-get-back-the-value)
 
