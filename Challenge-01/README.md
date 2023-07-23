@@ -1,4 +1,4 @@
-# 3-Tier Architecture for WordPress Web App on Azure
+# Challenge 01 - A Three Tier Architecture for WordPress Web App on Azure
 
 ## Introduction:
 
